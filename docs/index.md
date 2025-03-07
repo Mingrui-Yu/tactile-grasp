@@ -6,6 +6,13 @@ layout: default
   src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
 
 # Minimizing Undesired Object Movements in Dexterous Grasping Control with Tactile-Feedback Arm-Hand Coordination
 
