@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Minimizing Undesired Object Movements in Dexterous Grasping Control with Tactile-Feedback Arm-Hand Coordination"
 ---
 
 <script type="text/javascript" async
@@ -13,8 +14,6 @@ layout: default
     }
   };
 </script>
-
-# Minimizing Undesired Object Movements in Dexterous Grasping Control with Tactile-Feedback Arm-Hand Coordination
 
 <p style="text-align: center;"> 
 <a href="https://mingrui-yu.github.io/tactile-grasp/" style="color: #0ABAB5; text-decoration: underline;">arXiv (comming soon)</a> |
