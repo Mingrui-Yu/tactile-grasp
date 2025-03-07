@@ -1,3 +1,8 @@
+<script type="text/javascript" async
+  src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+
 # Minimizing Undesired Object Movements in Dexterous Grasping Control with Tactile-Feedback Arm-Hand Coordination
 
 <p style="text-align: center;"> 
@@ -25,6 +30,7 @@ Real-world experiments demonstrate that the proposed approach significantly redu
 ### Hyper-Parameters
 
 - Stage 1:
+  - \(E = mc^2\)
   - $l = 0.04$
   - $\lambda_{1, q} = 0.001$
 - Stage 2:
