@@ -41,23 +41,20 @@ Real-world experiments demonstrate that the proposed approach significantly redu
 ### Hyper-Parameters
 
 - Stage 1:
-  <!-- - \(E = mc^2\)
-  - $ \displaystyle E = mc^2 $ -->
-  <!-- - \\(E = mc^2\\) -->
   - \\(l = 0.04\\)
   - \\(\lambda\_{1, q} = 0.001\\)
 - Stage 2:
   - \\(\gamma = 1.0\\)
   - \\(\lambda\_{2, \rm f} = 1.0\\)
   - \\(\lambda\_{2, \rm a} = 1.0\\)
-  - \\(\bm q\_{\rm vel, max}^{af} = [..., 0.2, ...]\\) (rad)
+  - \\(q\_{\rm vel, max}^{af} = [..., 0.2, ...] \text{(rad)} \\)
 - Stage 3:
-  - \\(\bm K_e = \text{diag}(10^6, 10^6, 700)\\). Note that we assign large values for the tangential dimensions to penalize tangential motions.
-  - \\(\bm K_p = \text{diag}(0.01, 0.01, 0.01, 0.01)\\)
+  - \\(K_e = \text{diag}(10^6, 10^6, 700)\\). Note that we assign large values for the tangential dimensions to penalize tangential motions.
+  - \\(K_p = \text{diag}(0.01, 0.01, 0.01, 0.01)\\)
   - \\(\lambda\_{3, q} = 1.0\\)
   - \\(\mu = 0.1\\)
-  - \\(f^{\rm thumb}\_{\rm g, max} = 1.5 \\) (N)
-  - \\(\bm q\_{\rm vel, max}^{f} = [..., 0.1, ...] \\) (rad)
+  - \\(f^{\rm thumb}\_{\rm g, max} = 1.5 \text{(N)} \\)
+  - \\(q\_{\rm vel, max}^{f} = [..., 0.1, ...] \text{(rad)} \\)
 
 ## Contact
 
