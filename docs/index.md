@@ -20,6 +20,26 @@ This work addresses the gap by proposing an optimization-based tactile-feedback 
 Our framework consists of three stages: global approaching, contact establishment, and grasp force exertion, with a emphasis on coordinated forces across multiple fingers to ensure a gentle grasping. Unlike existing works, our approaches focuses on the whole-process grasping control, during which both the arm and hand motions are optimized to improve grasp quality.
 Real-world experiments demonstrate that the proposed approach significantly reduces undesired in-hand object movements and maintains wrench balances in the presence of visual perception errors and imperfect planned grasp poses.
 
+## Appendix
+
+### Hyper-Parameters
+
+- Stage 1:
+  - $l = 0.04$
+  - $\lambda_{1, q} = 0.001$
+- Stage 2:
+  - $\gamma = 1.0$
+  - $\lambda_{2, \rm f} = 1.0$
+  - $\lambda_{2, \rm a} = 1.0$
+  - $\bm q_{\rm vel, max}^{af} = [..., 0.2, ...]$ (rad)
+- Stage 3:
+  - $\bm K_e = \text{diag}(10^6, 10^6, 700)$. Note that we assign large values for the tangential dimensions to penalize tangential motions.
+  - $\bm K_p = \text{diag}(0.01, 0.01, 0.01, 0.01)$
+  - $\lambda_{3, q} = 1.0$
+  - $\mu = 0.1$
+  - $f^{\rm thumb}_{\rm g, max} = 1.5$ (N)
+  - $\bm q_{\rm vel, max}^{f} = [..., 0.1, ...]$ (rad)
+
 ## Contact
 
 If you have any question, feel free to contact the authors: Mingrui Yu, [mingruiyu98@gmail.com](mailto:mingruiyu98@gmail.com) .
