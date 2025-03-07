@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <script type="text/javascript" async
   src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script type="text/javascript" async
@@ -45,6 +49,8 @@ Real-world experiments demonstrate that the proposed approach significantly redu
   - $\mu = 0.1$
   - $f^{\rm thumb}_{\rm g, max} = 1.5$ (N)
   - $\bm q_{\rm vel, max}^{f} = [..., 0.1, ...]$ (rad)
+
+$$ a^2 $$
 
 ## Contact
 
