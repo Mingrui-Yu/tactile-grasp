@@ -42,6 +42,8 @@ Real-world experiments demonstrate that the proposed approach significantly redu
 
 - Stage 1:
   - \(E = mc^2\)
+  - $ \displaystyle E = mc^2 $
+  - \\(E = mc^2\\)
   - $l = 0.04$
   - $\lambda_{1, q} = 0.001$
 - Stage 2:
