@@ -49,7 +49,7 @@ Real-world experiments demonstrate that the proposed approach significantly redu
   - \\(q\_{\rm vel, max}^{\rm af} = [..., 0.2, ...] \text{(rad)} \\)
 - Stage 3:
   - \\(K_e = \text{diag}(10^6, 10^6, 700)\\). Note that we assign large values for the tangential dimensions to penalize tangential motions.
-  - \\(K_p = \text{diag}(0.01, 0.01, 0.01, 0.01)\\)
+  - \\(K_p = \text{diag}(100, 100, 100, 100)\\)
   - \\(\lambda\_{3, q} = 1.0\\)
   - \\(\mu = 0.1\\)
   - \\(f^{\rm thumb}\_{\rm g, max} = 1.5 \text{(N)} \\)
